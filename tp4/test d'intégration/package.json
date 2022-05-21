@@ -1,0 +1,33 @@
+{
+    "nom" : " service-d'intégration " ,
+    "version" : " 1.0.0 " ,
+    "description" : " Tests d'intégration pour le service utilisateurs. " ,
+    "dépôt" : {
+      "type" : " git " ,
+      "url" : " git://github.com/saidfatma/node-docker-microservice.git "
+    },
+    "main" : " index.js " ,
+    "scripts" : {
+      "start" : " moka -t 50000 ./index.js " ,
+      "lint" : " eslint . "
+    },
+    "auteur" : " saidfatma, saidfatimaslimani@gmail.com " ,
+    "licence" : " MIT " ,
+    "dépendances" : {
+      "moka" : " ^2.4.5 " ,
+      "devrait" : " ^8.3.0 " ,
+      "supertest" : " ^1.2.0 "
+    },
+    "devDependencies" : {
+      "eslint" : " ^2.7.0 "
+    },
+    "eslintConfig" : {
+      "parserOptions" : {
+        "ecmaVersion" : 6 
+        
+      },
+      "règles" : {
+        "demi" : 2
+      }
+    }
+  }
